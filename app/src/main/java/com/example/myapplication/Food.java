@@ -19,6 +19,12 @@ public class Food {
             new Food("Waffles", "Belgian Waffles, whipped cream, fresh fruit", 7.50, R.drawable.waffles)
     };
 
+    public static final Food[] LunchFoods ={
+            new Food("Eggs", "3 Eggs, some cheese, pepper, and tomatoes", 8.99, R.drawable.omelet),
+            new Food("Pancakes", "3 pancakes, choice of meat, potato", 7.95, R.drawable.pancakes),
+            new Food("Waffles", "Belgian Waffles, whipped cream, fresh fruit", 7.50, R.drawable.waffles)
+    };
+
     public String toString(){
         return foodName;
     }

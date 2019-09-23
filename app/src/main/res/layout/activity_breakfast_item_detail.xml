@@ -7,8 +7,8 @@
     tools:context=".BreakfastItemDetailActivity"
     android:orientation="vertical"
     >
-//TextView for name and desc., and price. also mak ean imageView or the picture
-    // Denna used foodName, foodDesc, foodPrice, foodPic
+<!--TextView for name and desc., and price. also mak ean imageView or the picture
+     Denna used foodName, foodDesc, foodPrice, foodPic-->
 
     <TextView
         android:id="@+id/foodName"
@@ -32,7 +32,7 @@
         android:id="@+id/foodPic"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:srcCompat="@mipmap/ic_launcher" />
+         />
 
 
 </LinearLayout>
