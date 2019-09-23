@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BreakfastItemDetailActivity"
+    android:orientation="vertical"
+    >
+//TextView for name and desc., and price. also mak ean imageView or the picture
+    // Denna used foodName, foodDesc, foodPrice, foodPic
+
+    <TextView
+        android:id="@+id/foodName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="this is where the name of the food goes" />
+
+    <TextView
+        android:id="@+id/foodDesc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="this is where the description of the food goes" />
+
+    <TextView
+        android:id="@+id/foodPrice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="this is where the price of the food goes" />
+
+    <ImageView
+        android:id="@+id/foodPic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@mipmap/ic_launcher" />
+
+
+</LinearLayout>
