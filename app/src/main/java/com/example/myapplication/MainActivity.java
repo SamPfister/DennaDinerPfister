@@ -21,6 +21,10 @@ public class MainActivity extends AppCompatActivity {
                     startActivity(intent);
                 }
                 // TODO add else/if s for breakfast and lunch options;
+                else if(position == 1){
+                    Intent intent = new Intent(MainActivity.this, LunchChoicesActivity.class);
+                    startActivity(intent);
+                }
 
             }
         };
